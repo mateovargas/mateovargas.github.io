@@ -64,6 +64,17 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #45A29E;
+
+}
+
+.navbar-default .navbar-nav > .active > a {
+
+  background: #C5C6C7 !important;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: #C5C6C7 !important;
 }
 
 /* navbar */
@@ -105,9 +116,7 @@ footer {
   text-align: center;
   background: #0B0C10;
   border-top: 8px solid #66FCF1;
-  position: static;
-  width: 100%;
-  bottom: 0px;
+
 }
 
 /* sidebar */
