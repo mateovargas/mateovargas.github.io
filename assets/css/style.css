@@ -275,36 +275,32 @@ iframe {
 
 }
 
-.carousel .item h3 {
-
-}
-
 
 @media screen and (max-width: 960px){
   iframe {
     width: 300px;
-    height: 250px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 768px){
   iframe {
     width: 250px;
-    height: 175px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 768px){
   iframe {
     width: 250px;
-    height: 175px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 640px){
   iframe {
     width: 200px;
-    height: 100px;
+    height: auto;
   }
 }
 
@@ -324,4 +320,21 @@ iframe {
     border-bottom: 2px solid #66FCF1;
     font-size: 14px;
   }
+
+  iframe {
+    width: 150px;
+    height: auto;
+  }
+
+  #main-container h1 {
+    font-size: 14px;
+  }
+
+  .work {
+
+    width: 154px;
+
+  }
+
+  
 }
