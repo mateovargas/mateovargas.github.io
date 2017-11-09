@@ -93,29 +93,6 @@ h3 {
   color: #45A29E !important;
 }
 
-/* edit these!
-.navbar .navbar-header {
-  float: none;
-}
-.navbar .navbar-toggle {
-  display: block;
-}
-.navbar .navbar-collapse.collapse {
-  display: none!important;
-}
-.navbar .navbar-nav {
-  float: none!important;
-}
-.navbar .navbar-nav > li {
-  float: none;
-}
-.navbar .navbar-collapse.collapse.in {
-  display: block !important;
-}*/
-
-
-
-
 
 /* footer */
 
@@ -128,6 +105,9 @@ footer {
   text-align: center;
   background: #0B0C10;
   border-top: 8px solid #66FCF1;
+  position: static;
+  width: 100%;
+  bottom: 0px;
 }
 
 /* sidebar */
@@ -195,6 +175,7 @@ h3,
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  height: 204.83px;
 }
 
 .work h3 {
@@ -259,10 +240,33 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* discreteSIR page */
 iframe {
 
   width: 500px;
   height: 450px;
+
+}
+
+/*Photography page*/
+.carousel .item {
+
+  width: 100% !important;
+  height: auto !important;
+
+}
+
+.carousel-inner > .carousel-item > img {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.carousel .item h3 {
 
 }
 
