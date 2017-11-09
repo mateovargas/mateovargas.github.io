@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -17,11 +19,13 @@
           <div class="navbar-header">
             <a href="index.html" id="logo">Mateo Vargas</a>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
       </div>
     </nav>
   </header>
@@ -54,18 +58,7 @@
           </p>
 
           <p>
-            An avid gamer, Mateo spends much of his time outside of work playing
-            and writing about a myriad of games. His written work can be at
-            <a href="http://playwrite.com.au/dark-souls-and-life-lessons-from-lordran-and-beyond/" target="_blank">
-              playwrite.au. 
-            </a>
-            Additionally, he has a passion for photography and travel, which he 
-            pursues when he can and has had his work posted on 
-            <a 
-              href="https://kotaku.com/holyrood-abbey-edinburgh-scotland-by-mateo-vargas-j-1800671707"
-              target="_blank">
-              Kotaku.com
-            </a>
+            The work contained within sought to develop a digital game that conveyed the core principles of the SIR model for epidemics and improve the learning outcomes for students when learning this model. Initial work resulted in a simple C# that simulated the SIR model. This was then extended to become the central behavior in a short game. Both the simple script and the model in the game were evaluated to ensure their accurate portrayal of the model. The prototype for this game was then deployed to several participants in two short evaluation experiments. Though neither work demonstrated a conclusive trend, the work within provides some insight into creating a game that conveys information about the SIR model of epidemics. The full manuscript can be downloaded <a href="assets/documents/dissertation.pdf" download="discrete_sir_games.pdf">here.</a>
           </p>
         </div>
       </section>
@@ -92,9 +85,9 @@
     </div>
   </div>
 
-  <footer>
+  <footer class="footer">
     <div class="container">
-      Copyright &copy; 2016 Your Name
+      Copyright &copy; 2017 Mateo Vargas
     </div>
   </footer>
 </body>

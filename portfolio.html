@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -17,11 +19,13 @@
           <div class="navbar-header">
             <a href="index.html" id="logo">Mateo Vargas</a>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
       </div>
     </nav>
   </header>
@@ -36,8 +40,43 @@
         </div>
         <div class="row">
           <!--Form goes here-->
+          <div class="col-xs-12 col-md-6">
+            <div class="work">
+              <a href="discreteSIR.html" target="_blank">
+                <img src="assets/images/game.png" alt="Dissertation">
+              </a>
+              <h3>Xenoplague</h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="work">
+              <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+              <h3>RPG Game</h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="work">
+              <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+              <h3>Trivia Game</h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="work">
+              <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+              <h3>Rutgers Info Widget</h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="work">
+              <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+              <h3>Rock Paper Scissors</h3>
+            </div>
+          </div>
         </div>
       </section>
+
+
+
     </div>
     <div class="col-xs-4 col-md-4">
       <section class="sidebar">
@@ -61,9 +100,9 @@
     </div>
   </div>
 
-  <footer>
+  <footer class="footer">
     <div class="container">
-      Copyright &copy; 2016 Your Name
+      Copyright &copy; 2017 Mateo Vargas
     </div>
   </footer>
 </body>

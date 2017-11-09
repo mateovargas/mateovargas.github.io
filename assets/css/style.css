@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/spiration.png");
+  background: #1F2833 !important;
 }
 
 * {
@@ -35,14 +35,14 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #45A29E;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid #66FCF1;
 }
 
 h2,
@@ -63,13 +63,15 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #45A29E;
 }
+
+/* navbar */
 
 .navbar {
 
-  background-color: white;
-
+    background-color: #0B0C10 !important;
+    border-color: #66FCF1 !important;
 }
 
 .navbar a {
@@ -87,6 +89,30 @@ h3 {
   border-left: 0 none;
 }
 
+.navbar a:hover{
+  color: #45A29E !important;
+}
+
+/* edit these!
+.navbar .navbar-header {
+  float: none;
+}
+.navbar .navbar-toggle {
+  display: block;
+}
+.navbar .navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar .navbar-nav {
+  float: none!important;
+}
+.navbar .navbar-nav > li {
+  float: none;
+}
+.navbar .navbar-collapse.collapse.in {
+  display: block !important;
+}*/
+
 
 
 
@@ -98,10 +124,10 @@ footer {
   clear: both;
   font-size: 12px;
   color: #fff;
-  color: #ccc;
+  color: #fff;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #0B0C10;
+  border-top: 8px solid #66FCF1;
 }
 
 /* sidebar */
@@ -112,8 +138,8 @@ footer {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #C5C6C7;
+  border: 1px solid #66FCF1;
 }
 
 h3,
@@ -121,7 +147,7 @@ h3,
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #66FCF1;
 }
 
 .social {
@@ -147,8 +173,8 @@ h3,
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #C5C6C7;
+  border: 1px solid #66FCF1;
 }
 
 /* portfolio page */
@@ -181,7 +207,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #45A29E;
   border-bottom: 0;
 }
 
@@ -229,6 +255,42 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #45A29E;
   border: 0 none;
+}
+
+iframe {
+
+  width: 500px;
+  height: 450px;
+
+}
+
+
+@media screen and (max-width: 960px){
+  iframe {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  iframe {
+    width: 250px;
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  iframe {
+    width: 250px;
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  iframe {
+    width: 200px;
+    height: 100px;
+  }
 }
