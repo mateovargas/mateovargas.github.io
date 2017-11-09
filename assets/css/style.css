@@ -307,3 +307,21 @@ iframe {
     height: 100px;
   }
 }
+
+@media screen and (max-width: 400px){
+  .auth-image{
+
+    width: 100%;
+    height: auto;
+
+  }
+
+  h3,
+  .sidebar h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #66FCF1;
+    font-size: 14px;
+  }
+}
