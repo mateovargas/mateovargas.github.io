@@ -1,0 +1,40 @@
+@font-face{
+	font-family: eight-bit;
+	src: url(../fonts/eight-bit.ttf);
+}
+
+html {
+
+	font-family: eight-bit;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+h1, h2, p{
+
+	padding: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 25px;
+
+}
+
+h2, p{
+
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+}
+
+h1 {
+
+	font-size: 64px;
+}
+
+img {
+
+	width: 50%;
+	height: auto;
+	padding: 50px 50px 50px 50px;
+
+}
