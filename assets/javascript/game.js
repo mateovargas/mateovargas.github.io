@@ -222,26 +222,9 @@ var gameManager = {
 	/*Method to set the sounds for the game */
 	setSound: function(){
 
-		this.main_song = new Howl({
-        	src: ['assets/music/mario.mp3'],
-        	autoplay: true,
-        	loop: true,
-        	volume: 0.5
-      	});
-
-		this.win_song = new Howl({
-			src: ['assets/music/win.mp3'],
-			autoplay: false,
-			loop: false,
-			volume: 0.5,
-		});
-
-		this.lose_song = new Howl({
-			src: ['assets/music/lose.mp3'],
-			autoplay: false,
-			loop: false,
-			volume: 0.5,
-		});
+		this.main_song = new Audio('assets/music/mario.mp3');
+		this.win_song = new Audio('assets/music/win.mp3');
+		this.lose_song = new Audio('assets/music/lose.mp3');
 
     	this.main_song.play();
 	}
