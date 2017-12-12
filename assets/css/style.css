@@ -50,6 +50,10 @@ h3 {
   font-size: 22px;
 }
 
+blockquote{
+
+  border-left: 3px solid #66FCF1 !important;
+}
 /* header */
 
 #logo {
