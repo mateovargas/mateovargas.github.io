@@ -72,6 +72,10 @@ blockquote{
 
 }
 
+#logo:hover{
+  color: #66FCF1 !important;
+}
+
 .navbar-default .navbar-nav > .active > a {
 
   background: #66FCF1 !important;
